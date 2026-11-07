@@ -116,21 +116,21 @@ the CLI resolves profiles from the source layout, so a dry run against the
 checkout is the real check:
 
 ```sh
-npx awesome-agents add . --agent rex --list
-npx awesome-agents add . --agent rex --harness opencode --dry-run --json
+bunx awesome-agents add . --agent rex --list
+bunx awesome-agents add . --agent rex --harness opencode --dry-run --json
 ```
 
 a real install, to see the rendered prompt:
 
 ```sh
-npx awesome-agents add . --agent rex --harness opencode
+bunx awesome-agents add . --agent rex --harness opencode
 cat ~/.config/opencode/agents/rex.md
 ```
 
 then remove it again:
 
 ```sh
-npx awesome-agents remove rex
+bunx awesome-agents remove rex
 ```
 
 ---

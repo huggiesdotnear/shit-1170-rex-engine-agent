@@ -15,32 +15,32 @@ REX is an [awesome-agents](https://github.com/pablof7z/awesome-agents) profile. 
 
 ```sh
 # add
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex
 # --list — see what is in the repo before installing
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --list
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --list
 ```
 
 Pick the harness you want it in:
 
 ```sh
 # one harness
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --harness opencode
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --harness claude-code
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --harness codex
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --harness opencode
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --harness claude-code
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --harness codex
 
 # every harness the CLI finds on your PATH
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex
 
 # preview the writes without making them
-npx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --dry-run
+bunx awesome-agents add huggiesdotnear/shit-1170-rex-engine-agent --agent rex --dry-run
 ```
 
 Manage it afterwards:
 
 ```sh
-npx awesome-agents list
-npx awesome-agents update rex
-npx awesome-agents remove rex
+bunx awesome-agents list
+bunx awesome-agents update rex
+bunx awesome-agents remove rex
 ```
 
 ### from a checkout
@@ -48,7 +48,7 @@ npx awesome-agents remove rex
 ```sh
 git clone https://github.com/huggiesdotnear/shit-1170-rex-engine-agent.git
 cd shit-1170-rex-engine-agent
-npx awesome-agents add . --agent rex --harness opencode
+bunx awesome-agents add . --agent rex --harness opencode
 ```
 
 ### where it lands
