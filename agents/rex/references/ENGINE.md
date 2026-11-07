@@ -2,7 +2,7 @@
 
 the rex engine's data model, routes, and pages.
 
-this is the reference Rex reads when it needs to know what the engine
+this is the reference REX reads when it needs to know what the engine
 stores and what the website shows.
 
 the typed client is `@huggies/shit-1170-rex-engine-middleman`. it

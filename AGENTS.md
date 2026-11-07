@@ -1,6 +1,6 @@
 # shit-1170-rex-engine-agent
 
-this repo holds **Rex**, the agent profile for the shit-1170 rex engine.
+this repo holds **REX**, the agent profile for the shit-1170 rex engine.
 
 - see the skill list in [README.md](./README.md)
 - see the live site at 🌐 https://shit-1170.com/
@@ -23,7 +23,7 @@ one agent, packaged as an [awesome-agents](https://github.com/pablof7z/awesome-a
 profile. the profile lives in `agents/rex/`:
 
 - `agent.yaml` — the profile: id, name, description, and the instructions
-  that make Rex behave the way it does.
+  that make REX behave the way it does.
 - `references/ENGINE.md` — the engine's routes, data model, filters, pages.
 - `references/QUEUEING.md` — the queue payload shapes, the checks, and the
   reporting rules.
@@ -94,7 +94,7 @@ than guessing.
 the loader is `awesome-agents`. the fields this profile uses:
 
 - `schema`, `id`, `name`, `description` — the identity.
-- `model: inherit` — Rex does not pin a model. it takes whatever the harness
+- `model: inherit` — REX does not pin a model. it takes whatever the harness
   is configured with, so models can change without a reinstall.
 - `instructions` — the operating manual, as a block scalar.
 - `references/` — installed to `~/.agents/homes/rex/references` and listed

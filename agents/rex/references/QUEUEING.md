@@ -2,7 +2,7 @@
 
 the queue payload shapes, the checks, and the reporting rules.
 
-this is the reference Rex reads when it prepares work for a human to
+this is the reference REX reads when it prepares work for a human to
 sign.
 
 ---

@@ -1,8 +1,8 @@
 # shit-1170-rex-engine-agent
 
-💩 **Rex** — the shit-1170 rex engine agent.
+💩 **REX** — the shit-1170 rex engine agent.
 
-Rex is the agent for the [shit-1170 rex engine](https://github.com/huggiesdotnear/shit-1170-rex-engine): a feed and a transaction queue for NEAR. Rex prepares the work; a human signs it in their wallet.
+REX is the agent for the [shit-1170 rex engine](https://github.com/huggiesdotnear/shit-1170-rex-engine): a feed and a transaction queue for NEAR. REX prepares the work; a human signs it in their wallet.
 
 - live site: https://shit-1170.com/
 - the skills it draws on: [shit-1170-rex-engine-skills](https://github.com/huggiesdotnear/shit-1170-rex-engine-skills)
@@ -11,7 +11,7 @@ Rex is the agent for the [shit-1170 rex engine](https://github.com/huggiesdotnea
 
 ## install
 
-Rex is an [awesome-agents](https://github.com/pablof7z/awesome-agents) profile. Install it with the `awesome-agents` CLI:
+REX is an [awesome-agents](https://github.com/pablof7z/awesome-agents) profile. Install it with the `awesome-agents` CLI:
 
 ```sh
 # add
@@ -73,13 +73,13 @@ pi-rex                      # pi
 
 ---
 
-## what Rex does
+## what REX does
 
-Rex reads NEAR chain state and the engine's feed, verifies contract calls against the chain, and prepares transactions and swaps as queued batches that a human signs.
+REX reads NEAR chain state and the engine's feed, verifies contract calls against the chain, and prepares transactions and swaps as queued batches that a human signs.
 
-**Rex never signs or sends anything.** Every state-changing call becomes a queued payload — `{ contractId, method, args, gas, deposit }` — and the engine holds it until a human signs it in the web app.
+**REX never signs or sends anything.** Every state-changing call becomes a queued payload — `{ contractId, method, args, gas, deposit }` — and the engine holds it until a human signs it in the web app.
 
-Rex is proactive: when you name an account, Rex goes and looks up what it holds, what it can trade, whether it belongs to a DAO, and what the feed holds, before answering.
+REX is proactive: when you name an account, REX goes and looks up what it holds, what it can trade, whether it belongs to a DAO, and what the feed holds, before answering.
 
 | | |
 | --- | --- |
@@ -93,7 +93,7 @@ The engine's typed client is [`@huggies/shit-1170-rex-engine-middleman`](https:/
 
 ### the skills it uses
 
-Rex draws on the skills in [shit-1170-rex-engine-skills](https://github.com/huggiesdotnear/shit-1170-rex-engine-skills) — the engine queue, NEP-141 tokens, the unit conversion, the greeting contract, and FastFS. They are installed separately, with the skills installer:
+REX draws on the skills in [shit-1170-rex-engine-skills](https://github.com/huggiesdotnear/shit-1170-rex-engine-skills) — the engine queue, NEP-141 tokens, the unit conversion, the greeting contract, and FastFS. They are installed separately, with the skills installer:
 
 ```sh
 bunx skills add huggiesdotnear/shit-1170-rex-engine-skills
@@ -122,7 +122,7 @@ agents/
       QUEUEING.md        # payload shapes, the checks, the reporting rules
 ```
 
-Rex is one agent, so this is a profile repo and not a skills repo. There is no `skills/` folder here — the skills stay in their own repo and are installed with the skills installer above.
+REX is one agent, so this is a profile repo and not a skills repo. There is no `skills/` folder here — the skills stay in their own repo and are installed with the skills installer above.
 
 ---
 
@@ -141,7 +141,7 @@ set `SHIT_1170_REX_HOME` to use another directory.
 
 ## the model
 
-Rex does not pin a model. It inherits whatever the harness is configured with, so you can change models without reinstalling.
+REX does not pin a model. It inherits whatever the harness is configured with, so you can change models without reinstalling.
 
 =====================
 <br/>
