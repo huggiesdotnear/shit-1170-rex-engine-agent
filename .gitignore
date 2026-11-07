@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+bun.lock
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# the CLI's registry, if a local install ever writes one
+.awesome-agents/
+
+# logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# os and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
